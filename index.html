@@ -4,8 +4,14 @@
   <meta charset="utf-8">
   <title>Anurag Chaudhary's Resume Presentation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  
+  <!-- Reveal.js core CSS -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+  <!-- Theme CSS (choose theme: black, white, league, beige, sky, etc.) -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/black.css" id="theme">
+
+  <!-- Optional highlight.js styles for code syntax highlighting -->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/plugin/highlight/monokai.css">
 </head>
 <body>
   <div class="reveal">
@@ -15,80 +21,81 @@
       <section>
         <h1>Anurag Chaudhary</h1>
         <p>Data Engineer | Data Scientist</p>
-        <p>+33 758615136 | <a href="https://anuragsinghchaudhary.github.io/" target="_blank">Anuragsinghchaudhary.github.io</a></p>
-        <p>Anuragchaudhary004@gmail.com</p>
+        <p><a href="tel:+33758615136">+33 758615136</a> | <a href="https://anuragsinghchaudhary.github.io/" target="_blank">Anuragsinghchaudhary.github.io</a></p>
+        <p><a href="mailto:Anuragchaudhary004@gmail.com">Anuragchaudhary004@gmail.com</a></p>
         <p>11 Avenue du General de Gaulle, Rosny Sous Bois, 93110, France</p>
+        <p><small>Use the arrow keys to navigate the slides!</small></p>
       </section>
 
       <!-- Objective Slide -->
       <section>
         <h2>Objective</h2>
-        <p>Looking for a full-time role. I aim to apply my skills and knowledge in a practical environment, contribute to meaningful projects, and build a strong foundation for a future career.</p>
+        <p class="fragment fade-in">Looking for a full-time role to apply my skills and knowledge, contribute to meaningful projects, and build a strong foundation for a future career.</p>
       </section>
 
       <!-- Skills Slide -->
       <section>
         <h2>Skills</h2>
         <ul>
-          <li>Data extraction and Analysis with pandas</li>
-          <li>ETL, Literature review, and academic writing</li>
-          <li>Python, Spark, Scripting, Docker, APIs, NoSQL Databases</li>
+          <li class="fragment fade-in">Data extraction and analysis with pandas</li>
+          <li class="fragment fade-in">ETL, literature review, and academic writing</li>
+          <li class="fragment fade-in">Python, Spark, scripting, Docker, APIs, NoSQL databases</li>
         </ul>
       </section>
 
       <!-- Industrial Experience Slide 1: CO2 AI -->
       <section>
-        <h2>Industrial Experience: CO2 AI</h2>
+        <h2>Experience: CO2 AI</h2>
         <p>Data Engineer Intern | Paris, France (Jan 2024 - July 2024)</p>
         <ul>
-          <li>Worked with clients to understand their supply chain engagement to extract emissions data in Scope 3 subcategories.</li>
-          <li>Created End to End Data Pipelines for Carbon Accounting.</li>
-          <li>Maintained and adapted key input data sources to the Scope 3 annual carbon footprint process, aligning with Scope 3 GHG accounting.</li>
-          <li>Collaborated with 3rd party auditors in a fast-paced environment while working with global clients.</li>
+          <li class="fragment slide-in">Collaborated with clients to extract emissions data in Scope 3 subcategories</li>
+          <li class="fragment slide-in">Created End-to-End Data Pipelines for Carbon Accounting</li>
+          <li class="fragment slide-in">Aligned key input data sources with Scope 3 GHG accounting</li>
+          <li class="fragment slide-in">Worked with third-party auditors in a fast-paced global environment</li>
         </ul>
       </section>
 
       <!-- Industrial Experience Slide 2: JunoTerra Technology -->
       <section>
-        <h2>Industrial Experience: JunoTerra Technology</h2>
+        <h2>Experience: JunoTerra Technology</h2>
         <p>Data Scientist | New Delhi, India (Feb 2020 - Oct 2023)</p>
         <ul>
-          <li>Created IOT device data streams from device to MQTT server.</li>
-          <li>End to end data pipeline for building data applications.</li>
-          <li>Designed the data platform to automate health insights reports based on proprietary algorithms and gas concentrations.</li>
+          <li class="fragment fade-in">Developed IOT device data streams from device to MQTT server</li>
+          <li class="fragment fade-in">Built end-to-end data pipelines for building data applications</li>
+          <li class="fragment fade-in">Designed automated reports based on health insights and gas concentrations</li>
         </ul>
       </section>
 
       <!-- Industrial Experience Slide 3: Tavroi Research -->
       <section>
-        <h2>Industrial Experience: Tavroi Research</h2>
+        <h2>Experience: Tavroi Research</h2>
         <p>Data Scientist | Gurgaon, India (July 2019 - Jan 2020)</p>
         <ul>
-          <li>Developed NLP Chatbots for various use cases.</li>
-          <li>Built the pipeline of conversational AI and data storage for future model training.</li>
-          <li>Developed visualizations for the Grievance system using D3.js.</li>
-          <li>Wrote an NLP classifier for categorizing unstructured complaint data.</li>
-          <li>Extracted geo-location data to create a proof of concept on GTFS.</li>
-          <li>Worked on Docker and web technologies around geo-data science ecosystem.</li>
+          <li class="fragment fade-in">Developed NLP Chatbots for various use cases</li>
+          <li class="fragment fade-in">Built the pipeline for conversational AI and data storage for future model training</li>
+          <li class="fragment fade-in">Developed visualizations for the Grievance system using D3.js</li>
+          <li class="fragment fade-in">Extracted geo-location data for a proof of concept on GTFS</li>
         </ul>
       </section>
 
       <!-- Education Slide -->
       <section>
         <h2>Education</h2>
-        <p>MSc in Data Engineering - M2 (Nov 2023 - Nov 2024)</p>
-        <p>Aivancity School for Technology, Business & Society | Cachan, France</p>
-        <p>Coursework: Big Data Analytics, Cloud Computing, Big Data Algorithms, Distributed Databases</p>
+        <p>MSc in Data Engineering | Aivancity School, Cachan, France (Nov 2023 - Nov 2024)</p>
+        <ul class="fragment">
+          <li>Big Data Analytics, Cloud Computing, Big Data Algorithms</li>
+          <li>Distributed Databases</li>
+        </ul>
       </section>
 
       <!-- Research Papers Slide -->
       <section>
         <h2>Research Papers</h2>
         <ul>
-          <li>Comparative assessment of air quality & seasonal variations | ETH Zurich</li>
-          <li>Storytelling Data Visualization for Grievances Management System | Springer</li>
-          <li>A Machine Learning Approach for Enhancing Defense Against Global Terrorism | IEEE</li>
-          <li>An Empirical Comparison Between MongoDB & Hive | IEEE</li>
+          <li class="fragment fade-in">Comparative assessment of air quality & seasonal variations | ETH Zurich</li>
+          <li class="fragment fade-in">Storytelling Data Visualization for Grievances Management | Springer</li>
+          <li class="fragment fade-in">ML Approach for Enhancing Defense Against Global Terrorism | IEEE</li>
+          <li class="fragment fade-in">Empirical Comparison Between MongoDB & Hive | IEEE</li>
         </ul>
       </section>
 
@@ -96,24 +103,47 @@
       <section>
         <h2>Languages</h2>
         <ul>
-          <li>English: Full Professional Proficiency</li>
-          <li>French: Limited Working Proficiency</li>
+          <li class="fragment zoom-in">English: Full Professional Proficiency</li>
+          <li class="fragment zoom-in">French: Limited Working Proficiency</li>
         </ul>
       </section>
 
-      <!-- Note Slide -->
+      <!-- Additional Information Slide -->
       <section>
         <h2>Additional Information</h2>
-        <p>Availability: As soon as possible</p>
-        <p>Geographic Mobility: Paris metropolitan area</p>
+        <ul>
+          <li class="fragment fade-in">Availability: As soon as possible</li>
+          <li class="fragment fade-in">Geographic Mobility: Paris metropolitan area</li>
+        </ul>
       </section>
 
     </div>
   </div>
 
+  <!-- Reveal.js core library -->
   <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+  <!-- Optional plugins for interactivity -->
+  <script src="https://unpkg.com/reveal.js/plugin/highlight/highlight.js"></script>
+  
   <script>
-    Reveal.initialize();
+    // Initialize Reveal.js
+    Reveal.initialize({
+      // Add transition effects and speed
+      transition: 'convex', // none/fade/slide/convex/concave/zoom
+      transitionSpeed: 'fast', // default/fast/slow
+
+      // Enable fragment animations
+      fragments: true,
+      
+      // Enable the overview mode with 'Esc'
+      overview: true,
+
+      // Touch enabled
+      touch: true
+    });
+
+    // Initialize the syntax highlighting for code
+    RevealHighlight.initialize();
   </script>
 </body>
 </html>
